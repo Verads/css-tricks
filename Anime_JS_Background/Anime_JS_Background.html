@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Animation</title>
+    <link rel="stylesheet" href="/Anime_JS_Background/Anime_JS_Background.css">
+</head>
+<body>
+    <div class="container">
+        <h2><span>Animation using</span><br>AnimeJS</h2>
+    </div>
+
+    <script>
+        const container = document.querySelector('.container')
+        for ( var i = 0; i <= 100; i++){
+            const blocks = document.createElement('div');
+            blocks.classList.add('block');
+            container.appendChild(blocks);
+        }
+    </script>
+</body>
+</html>
